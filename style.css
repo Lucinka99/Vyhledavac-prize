@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right,#ffafbd, #ffc3a0); /*Lineární přechod na pozadí stránky - zleva doprava*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+  color: #333;
+  margin: 20px;
+}
+
+h1 {
+  color: #ff4081; /* růžová barva */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff; /* bílá barva */
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  background-color: #ff4081; /* růžová barva */
+  color: #fff;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none; /*Odstranění "dekorací" vzhledu neseřazeného seznamu*/
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  color: #777;
+}
+
+#results h2 {
+  color: #333; /* Tmavě šedá barva pro kontrast */
+}
