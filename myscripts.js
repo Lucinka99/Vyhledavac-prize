@@ -8,7 +8,7 @@ async function searchNeedleSize() {
 
     const response = await fetch('data.php'); /*Načítání dat ze souboru data.php*/
 
-    const data = await response.json(); /*Převod dat na JSON formát*/
+    const data = await response.json(); /*čtení dat ve formátu JSON*/
 
  
 
